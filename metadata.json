@@ -1,0 +1,6 @@
+{
+  "name": "The Wardrobe Studio",
+  "description": "A breathtakingly beautiful, multi-page luxury women's fashion e-commerce store.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

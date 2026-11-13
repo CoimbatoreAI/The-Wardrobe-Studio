@@ -1,0 +1,89 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    --font-serif: 'Playfair Display', 'Lora', Georgia, serif;
+    --font-heading: 'Cinzel', 'Playfair Display', serif;
+    --font-body: 'Montserrat', sans-serif;
+  }
+
+  html {
+    scroll-behavior: smooth;
+  }
+
+  body {
+    font-family: var(--font-body);
+    background-color: #FAF8F5;
+    color: #2D2B2A;
+    overflow-x: hidden;
+  }
+
+  h1, h2, h3, h4, h5, h6, .font-serif-heading {
+    font-family: var(--font-serif);
+  }
+
+  .font-cinzel {
+    font-family: var(--font-heading);
+  }
+}
+
+/* Custom theme colors */
+.bg-cream {
+  background-color: #FAF8F5;
+}
+.bg-cream-card {
+  background-color: #F4EFEA;
+}
+.bg-sky-soft {
+  background-color: #E3F2FD; /* Sky Blue tinted soft */
+}
+.bg-sky-subtle {
+  background-color: #F0F7FF;
+}
+.border-sky-soft {
+  border-color: #90CAF9; /* More visible sky blue border */
+}
+.text-sky-dark {
+  color: #0277BD; /* Deep Sky Blue */
+}
+.bg-sky-dark {
+  background-color: #0277BD;
+}
+
+.bg-cherry {
+  background-color: #C31535; /* Vibrant Cherry Red */
+}
+.bg-cherry-hover {
+  background-color: #A0112A; /* Darker Cherry */
+}
+.text-cherry {
+  color: #C31535;
+}
+.border-cherry {
+  border-color: #C31535;
+}
+
+.bg-cherry-deep {
+  background-color: #7A0A1F;
+}
+
+/* Custom scrollbar & glass */
+::-webkit-scrollbar {
+  width: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #FAF8F5;
+}
+::-webkit-scrollbar-thumb {
+  background: #C4D7E8;
+  border-radius: 3px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #D92B38;
+}
+
+.glass-nav {
+  background: rgba(250, 248, 245, 0.92);
+  backdrop-filter: blur(12px);
+}
+
